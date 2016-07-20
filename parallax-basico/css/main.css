@@ -24,14 +24,16 @@ html, body {
     background-color: lightne(#333, 20%); }
 
 .main {
-  margin-top: 30px; }
+  margin-top: 30px; color: #FFF;}
 
 .slide {
   background-attachment: fixed;
   width: 100%;
-  height: 100%;
   position: relative;
-  padding: 30px; }
+  padding: 30px;
+  text-align: center;
+  height: 100vh;
+  }
 
 .button {
   display: block;
@@ -46,7 +48,8 @@ html, body {
   background-repeat: no-repeat; }
 
 #slide1 {
-  background-image: url(../img/bg1.jpg); }
+  background-image: url(../img/bg1.jpg);
+}
 
 .slide-1-logo {
   text-align: center; }
@@ -58,7 +61,7 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
   z-index: 9;
-  height: 100%; }
+  }
 
 #slide3 {
   background-image: url(../img/bg3.jpg); }
